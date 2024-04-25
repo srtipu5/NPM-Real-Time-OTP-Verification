@@ -1,6 +1,6 @@
 {
-  "name": "otp-verification",
-  "version": "1.0.0",
+  "name": "otp-armor",
+  "version": "2.0.1",
   "description": "A Library to authenticate user via OTP verification.",
   "main": "src/index.js",
   "scripts": {

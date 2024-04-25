@@ -1,3 +1,4 @@
+const axios = require("axios")
 const status = async (config, otp_id) => {
     try {
         const response = await axios.get(`https://otp.dev/api/verify/${otp_id}/`, {

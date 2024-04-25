@@ -1,3 +1,4 @@
+const axios = require("axios")
 const history = async (config) => {
     try {
         const response = await axios.get("https://otp.dev/api/verify/", {

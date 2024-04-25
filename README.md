@@ -1,4 +1,4 @@
-## bKash Dynamic Charge Payment
+## Authenticate Via OTP Verification
 
 Library to authenticate user via OTP verification.
 
@@ -21,13 +21,13 @@ For more information about otp.dev and their services, please visit [otp.dev](ht
 # NPM Install
 
 ```
-npm install otp-verification
+npm install otp-armor
 ```
 
 # Yarn Install
 
 ```
-yarn add otp-verification
+yarn add otp-armor
 ```
 
 # Credentials Setup From https://otp.dev/en/ 
@@ -88,7 +88,7 @@ Verification.js
 
 ```
 const express = require('express')
-const { phoneOTP, emailOTP, voiceOTP, multiMethodOTP, status, history } = require('otp-verification')
+const { phoneOTP, emailOTP, voiceOTP, multiMethodOTP, status, history } = require('otp-armor')
 const bodyParser = require('body-parser')
 const app = express()
 const port = 3000
